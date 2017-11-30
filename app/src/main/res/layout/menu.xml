@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TableLayout
+        android:layout_width="370dp"
+        android:layout_height="418dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnquemadura"
+                android:layout_width="394dp"
+                android:layout_height="wrap_content"
+                android:text="quemaduras" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btndiagnostico"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Diagnostico" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btntratamiento"
+                android:layout_width="328dp"
+                android:layout_height="wrap_content"
+                android:text="Tratamiento" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView"
+
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        android:layout_marginTop="20dp"
+        android:text="      TRATAMIENTO"
+        android:textSize="40dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="204dp"
+        app:srcCompat="@drawable/electri" />
+
+    <TextView
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.22"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="Si la quemadura es por electricidad
+ *Si la persona aún está en contacto con la corriente eléctrica, no la toques
+ * No muevas a la persona, salvo que sea necesario
+ *Verifica si la persona responde
+  *Comunícate por teléfono para recibir ayuda médica inmediata
+   * Trata el área o las áreas con quemaduras mientras esperas al equipo de ayuda médica " />
+
+
+</LinearLayout>

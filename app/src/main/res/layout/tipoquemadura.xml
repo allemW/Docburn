@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnliquido"
+        android:layout_width="394dp"
+        android:layout_height="wrap_content"
+        android:text="Liquido caliente" />
+
+    <Button
+        android:id="@+id/btnfuego"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="fuego" />
+
+    <Button
+        android:id="@+id/btnquimico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quimico" />
+
+    <Button
+        android:id="@+id/btnelectricidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="electricidad" />
+
+    <Button
+        android:id="@+id/btnsolido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="solido caliente" />
+</LinearLayout>
